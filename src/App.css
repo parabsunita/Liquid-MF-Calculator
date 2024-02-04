@@ -116,7 +116,12 @@ legend span,
 .disabledField {
   margin-bottom: 20px;
 }
-
+.menuItem {
+  color: black !important;
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+}
 @keyframes slide {
   0% {
     transform: translateX(-25%);

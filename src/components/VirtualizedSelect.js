@@ -42,6 +42,7 @@ const VirtualizedSelect = memo(
               value={option.value}
               key={index}
               onClick={() => handleItemClick(index)}
+              className="menuItem"
             >
               {option.label}
             </MenuItem>
